@@ -1,0 +1,24 @@
+#chess-board td {
+     border: 1px solid #7fa650;
+    width: 70px;
+    height: 70px;
+}
+#chess-board{
+    border-collapse: collapse;
+}
+
+.td, th{
+    padding: 0;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.dark-square{
+   
+    background-color: #7fa650;
+}
+.light-square {
+  background-color: white;
+}
